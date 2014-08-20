@@ -11,7 +11,9 @@ require.config({
 require(['jquery', 'window'], function ($, w) {
     $('#a').click(function () {
         console.log('点击按钮！');
-        new w.Window().alert('Welcome!', 'ssd');
+        new w.Window().alert('Welcome!', function () {
+            alert('确定关闭？');
+        });
     });
     
 });
