@@ -1,0 +1,36 @@
+
+.window_boundingBox {
+    position: fixed;
+    border: 1px solid #000000;
+    box-shadow: 0 0 12px rgba(0, 0, 0, .5);
+}
+
+.window_alertBtn {
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.window_header {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.window_body {
+    padding: 10px;
+}
+
+.window_closeBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
